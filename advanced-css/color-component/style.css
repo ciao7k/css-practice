@@ -1,0 +1,34 @@
+body{
+    background-color: #F4E6F1;
+    padding: 5em;
+}
+p{
+    display:block;
+}
+.btn {
+    margin: 1px;
+    padding: 15px 30px;
+    border: 2px solid var(--color, black);
+    background-color: aliceblue;
+    background: transparent;
+    border-radius: 0.3em;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: var(--color, black);
+    color: aliceblue;
+}
+
+/* variations */
+.btn.red{
+    --color: red;
+}.btn.yellow{
+    --color: yellow;
+}.btn.green{
+    --color: green;
+}.btn.blue{
+    --color: blue;
+}.btn.orange{
+    --color: orange;
+}
+
